@@ -6,14 +6,14 @@ import ToggleButton from "../toggleButton";
 import VerticalStrip from "../verticalStrip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import image1 from "../../../public/Imageone.png";
-import image2 from "../../../public/Imagetwo.png";
-import image3 from "../../../public/Imagethree.png";
+import imageOne from "../../../public/Imageone.png";
+import imageTwo from "../../../public/Imagetwo.png";
+import imageThree from "../../../public/Imagethree.png";
 import barCode from "../../../public/barCode.png";
-import eventImage1 from '../../../public/EventImageone.png'
-import eventImage2 from '../../../public/EventImagetwo.png'
-import eventImage3 from '../../../public/EventImagethree.png'
-import eventImage4 from '../../../public/EventImagefour.png'
+import eventImageOne from '../../../public/EventImageone.png'
+import eventImageTwo from '../../../public/EventImagetwo.png'
+import eventImageThree from '../../../public/EventImagethree.png'
+import eventImageFour from '../../../public/EventImagefour.png'
 
 
 const CollectionPage = () => {
@@ -44,17 +44,17 @@ const CollectionPage = () => {
         </span>
         </div>
         <div className={styles.imageContainer}>
-          <Image className={styles.image1} src={image1} />
-          <Image className={styles.image2} src={image2} />
-          <Image className={styles.image3} src={image3} />
-          <Image className={styles.image1} src={image1} />
+          <Image className={styles.image1} src={imageOne} />
+          <Image className={styles.image2} src={imageTwo} />
+          <Image className={styles.image3} src={imageThree} />
+          <Image className={styles.image1} src={imageOne} />
         </div>
         <span><Image src={barCode} className={styles.barCode} /></span>
         <div className={styles.ImagesContent}>
-          <Image src={eventImage1} className={styles.Image1}/>
-          <Image src={eventImage2} className={styles.Image2}/>
-          <Image src={eventImage3} className={styles.Image3}/>
-          <Image src={eventImage4} className={styles.Image4}/>
+          <Image src={eventImageOne} className={styles.Image1}/>
+          <Image src={eventImageTwo} className={styles.Image2}/>
+          <Image src={eventImageThree} className={styles.Image3}/>
+          <Image src={eventImageFour} className={styles.Image4}/>
           
         </div>
         <VerticalStrip />
