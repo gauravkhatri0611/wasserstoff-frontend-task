@@ -7,13 +7,13 @@ import VerticalStrip from "../verticalStrip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import imageOne from "../../../public/Imageone.png";
-import imageTwo from "../../../public/Imagetwo.png";
-import imageThree from "../../../public/Imagethree.png";
+import imageTwo from "../../../public/Imageone.png";
+import imageThree from "../../../public/Imageone.png";
 import barCode from "../../../public/barCode.png";
 import eventImageOne from '../../../public/EventImageone.png'
-import eventImageTwo from '../../../public/EventImagetwo.png'
-import eventImageThree from '../../../public/EventImagethree.png'
-import eventImageFour from '../../../public/EventImagefour.png'
+import eventImageTwo from '../../../public/EventImageone.png'
+import eventImageThree from '../../../public/EventImageone.png'
+import eventImageFour from '../../../public/EventImageone.png'
 
 
 const CollectionPage = () => {
