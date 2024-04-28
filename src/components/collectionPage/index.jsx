@@ -6,14 +6,14 @@ import ToggleButton from "../toggleButton";
 import VerticalStrip from "../verticalStrip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import image1 from "../../../public/Image1.png";
-import image2 from "../../../public/Image2.png";
-import image3 from "../../../public/Image3.png";
+import image1 from "../../../public/Imageone.png";
+import image2 from "../../../public/Imagetwo.png";
+import image3 from "../../../public/Imagethree.png";
 import barCode from "../../../public/barCode.png";
-import eventImage1 from '../../../public/EventImage1.png'
-import eventImage2 from '../../../public/EventImage2.png'
-import eventImage3 from '../../../public/EventImage3.png'
-import eventImage4 from '../../../public/EventImage4.png'
+import eventImage1 from '../../../public/EventImageone.png'
+import eventImage2 from '../../../public/EventImagetwo.png'
+import eventImage3 from '../../../public/EventImagethree.png'
+import eventImage4 from '../../../public/EventImagefour.png'
 
 
 const CollectionPage = () => {
