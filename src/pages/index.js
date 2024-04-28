@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Inter } from 'next/font/google';
-import LandingPage from '@/components/LandingPage';
-import CollectionPage from '@/components/CollectionPage';
+import LandingPage from '@/components/landingPage';
+import CollectionPage from '@/components/collectionPage';
 import styles from '../pages/styles.module.scss';
 
 const inter = Inter({ subsets: ['latin'] });

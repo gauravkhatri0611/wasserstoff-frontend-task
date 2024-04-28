@@ -1,0 +1,45 @@
+/* VerticalStrip.scss */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.verticalStrip {
+  width: 1024px;
+  height: 91px;
+  left: 30%;
+  gap: 0px;
+  opacity: 1; /* setting to 1 to ensure full visibility */
+  transform: rotate(-90deg);
+  background-color: rgba(185, 160, 255, 1);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  top: 44%;
+  writing-mode: vertical-rl;
+
+  .textContainer {
+    white-space: nowrap;
+    text-align: center;
+    transform: rotate(90deg);
+    
+  }
+
+  .textStyle {
+    font-family: Krona One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    animation: verticalScroll 20s linear infinite;
+  }
+  
+}
+@keyframes verticalScroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
