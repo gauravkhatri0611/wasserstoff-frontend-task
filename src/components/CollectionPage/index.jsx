@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import brandName from "../../../public/Astrix Branding.png";
+import brandName from "../../images/Astrix Branding.png";
 import Image from "next/image";
 import ToggleButton from "../toggleButton";
 import VerticalStrip from "../verticalStrip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import imageOne from "../../../public/Imageone.png";
-import imageTwo from "../../../public/Imageone.png";
-import imageThree from "../../../public/Imageone.png";
-import barCode from "../../../public/barCode.png";
-import eventImageOne from '../../../public/EventImageone.png'
-import eventImageTwo from '../../../public/EventImageone.png'
-import eventImageThree from '../../../public/EventImageone.png'
-import eventImageFour from '../../../public/EventImageone.png'
+import imageOne from "../../images/Imageone.png";
+import imageTwo from "../../images/Imagetwo.png";
+import imageThree from "../../images/Imagethree.png";
+import barCode from "../../images/barCode.png";
+import eventImageOne from '../../images/EventImageone.png'
+import eventImageTwo from '../../images/EventImagetwo.png'
+import eventImageThree from '../../images/EventImagethree.png'
+import eventImageFour from '../../images/EventImagefour.png'
 
 
 const CollectionPage = () => {
