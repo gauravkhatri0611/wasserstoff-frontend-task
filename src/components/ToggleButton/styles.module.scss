@@ -1,0 +1,39 @@
+.toggleButton {
+    display: flex;
+    height: 52px;
+  }
+  
+  .activeButton,
+  .inactiveButton {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .activeButton {
+    background-color: rgba(72, 78, 86, 1); /* Example active button color */
+    color: white;
+  }
+  
+  .inactiveButton {
+    background-color: rgba(40, 43, 48, 1); /* Example inactive button color */
+    color: white; /* Example inactive button text color */
+  }
+  
+  .leftButton {
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+  }
+  
+  .rightButton {
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+  }
+  
+  .buttonText {
+    position: relative;
+    z-index: 1;
+  }
+  
